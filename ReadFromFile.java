@@ -13,6 +13,9 @@ import java.util.List;
 
 
 /*public class ReadFromFile {
+    /**
+     * This method read the input file and returns an int[] array.
+     */
     public static Integer[] readFile(String filePath){
 
         try{
