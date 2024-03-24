@@ -10,7 +10,7 @@ class Main {
     public static void main(String args[]) throws IOException {
 
         // Save the char as .png and show it
-        String filePath = args[0];
+        String filePath = "https://web.cs.hacettepe.edu.tr/~bbm204/2024Spring/PA1/TrafficFlowDataset.csv";
         int[] fileDuration = ReadFromFile.readFile(filePath);
 
         /**
